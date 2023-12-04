@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvVersionAndroidLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvVersionAndroid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/tvVersionAndroidLB" />
+
+    <TextView
+        android:id="@+id/tvVersionAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvVersionAndroid" />
+
+    <TextView
+        android:id="@+id/tvLigth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvLight" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnOn" />
+
+        <Button
+            android:id="@+id/btnOff2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnOff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLevelBaterryLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvLevelBattery" />
+
+    <ProgressBar
+        android:id="@+id/pbLevelBaterry"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvStorageLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvStorage" />
+
+    <EditText
+        android:id="@+id/etNameFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/etNameFile"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSaveFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/btnSaveFile"
+        android:text="@string/btnSaveFile"
+        android:src="@android:drawable/btn_star" />
+
+    <TextView
+        android:id="@+id/tvConectionLB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvLevelBattery_2" />
+
+    <TextView
+        android:id="@+id/tvConexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvState" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBTON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btOn" />
+
+        <Button
+            android:id="@+id/btnBTOFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btOff"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HarolRincon_TR</string>
+    <string name="tvVersionAndroidLB">1. Versión de Android:</string>
+    <string name="tvVersionAndroid">Android 1.0</string>
+    <string name="tvLight">2. FlashLight</string>
+    <string name="btnOn">On</string>
+    <string name="btnOff">Off</string>
+    <string name="tvLevelBattery">3. Nivel de Batería</string>
+    <string name="tvLevelBattery_2">Nivel de Batería: </string>
+    <string name="tvStorage">4. Almacenamiento</string>
+    <string name="etNameFile">Nombre de Archivo</string>
+    <string name="btnSaveFile">Guardar</string>
+    <string name="tvState">5. Conexión</string>
+    <string name="btOn">Bluetooth Encendido</string>
+    <string name="btOff">Bluetooth Apagado</string>
+</resources>
+
